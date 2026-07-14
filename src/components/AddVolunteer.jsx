@@ -105,6 +105,7 @@ const AddVolunteer = () => {
                                     <option value="MCA">MCA</option>
                                     <option value="MBA">MBA</option>
                                     <option value="BTech">BTech</option>
+                                    <option value="BCA">BCA</option>
                                 </select>
 
                             </div>
