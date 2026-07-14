@@ -4,6 +4,7 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import ViewVolunteers from './components/ViewVolunteers'
 import AddVolunteer from './components/AddVolunteer'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <>
       <BrowserRouter>
       <Routes>
+        <Route path='/view' element={<ViewVolunteers />}/>
         <Route path='/' element={<AddVolunteer />} />
       </Routes>
       </BrowserRouter>
